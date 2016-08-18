@@ -7,13 +7,18 @@ import java.util.*;
  */
 public class TruckRegistrByModel implements TruckRegistr<main.modelsOfTrucks, Truck> {
 
-    private Map<main.modelsOfTrucks, List<Truck>> modelsOfTrucksMap = new TreeMap<>();
+    private Map<main.modelsOfTrucks, List<Truck>> modelsOfTrucksMap = new HashMap<>();
 
     @Override
     public List<Truck> get(main.modelsOfTrucks model) {
-        List<Truck> thisMoodelTrucks = modelsOfTrucksMap.get(model);
-        if (thisMoodelTrucks.isEmpty()) {
-            System.out.println("trucks with this model not found");
+        List<Truck> thisMoodelTrucks = new ArrayList<>();
+        try {
+            thisMoodelTrucks = modelsOfTrucksMap.get(model);
+        }
+        catch (NullPointerException n) //возможно тут другой эксепшн тоже надо ловить?
+        {
+            System.out.println("We havent this model in base"); // это по-хорошему надо в лог, но мы его ещё не проходили
+            return null;
         }
         return thisMoodelTrucks;
     }
