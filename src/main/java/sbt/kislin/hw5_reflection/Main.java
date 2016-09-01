@@ -23,11 +23,11 @@ public class Main {
     }
 
     private static void printAllConstructors(Class<?> aClass) {
-        System.out.println("***All constructors of class "+aClass.getName()+" ****");
+        System.out.println("***All constructors of class " + aClass.getName() + " ****");
         Constructor<?>[] constructors = aClass.getDeclaredConstructors();
         for (Constructor<?> constructor : constructors) {
             StringBuilder builder = new StringBuilder();
-            if (constructor.getDeclaredAnnotations().length!=0) {
+            if (constructor.getDeclaredAnnotations().length != 0) {
                 Annotation[] declaredAnnotations = constructor.getDeclaredAnnotations();
                 for (Annotation annotation : declaredAnnotations) {
                     builder.append(annotation);
@@ -86,9 +86,9 @@ public class Main {
         return Modifier.toString(modifiers);
     }
 
-    private static StringBuilder makeInfoAboutMethod(Method declaredMethod){
+    private static StringBuilder makeInfoAboutMethod(Method declaredMethod) {
         StringBuilder builder = new StringBuilder();
-        if (declaredMethod.getDeclaredAnnotations().length!=0) {
+        if (declaredMethod.getDeclaredAnnotations().length != 0) {
             Annotation[] declaredAnnotations = declaredMethod.getDeclaredAnnotations();
             for (Annotation annotation : declaredAnnotations) {
                 builder.append(annotation);
@@ -108,7 +108,7 @@ public class Main {
     }
 
     private static void printAllFields(Class<?> aClass) {
-        System.out.println("***All fields of class "+aClass.getName()+" ***");
+        System.out.println("***All fields of class " + aClass.getName() + " ***");
         Field[] declaredFields = aClass.getDeclaredFields();
         for (Field declaredField : declaredFields) {
             StringBuilder builder = new StringBuilder();
@@ -121,6 +121,7 @@ public class Main {
 
     static class Test extends ParentTest<String> {
         private final String fio;
+
         @Deprecated
         public String getFio() {
             return fio;
