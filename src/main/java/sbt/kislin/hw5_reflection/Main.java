@@ -14,7 +14,7 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) throws ClassNotFoundException {
-        final Class<?> aClass = Class.forName("sbt.kislin.hw5_reflection.Main$Test");
+        final Class<?> aClass = Class.forName("sbt.kislin.hw5_reflection.MainClassicIO$Test");
         printSuperclasses(aClass);
         printAllMethodsOfItClass(aClass);
         printAllParentsMethod(aClass);

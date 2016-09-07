@@ -7,7 +7,7 @@ import java.io.IOException;
 /**
  * Created by axel on 06.09.2016.
  */
-public class Main {
+public class MainClassicIO {
     private final static String pathFile = "D://axel//hello.txt";
 
     public static void main(String[] args) {
