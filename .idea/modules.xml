@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HomeWorks.iml" filepath="$PROJECT_DIR$/HomeWorks.iml" />
       <module fileurl="file://$PROJECT_DIR$/PluginLoader/PluginLoader.iml" filepath="$PROJECT_DIR$/PluginLoader/PluginLoader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Streams/Streams.iml" filepath="$PROJECT_DIR$/Streams/Streams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThreadPool/ThreadPool.iml" filepath="$PROJECT_DIR$/ThreadPool/ThreadPool.iml" />
     </modules>
   </component>
 </project>
