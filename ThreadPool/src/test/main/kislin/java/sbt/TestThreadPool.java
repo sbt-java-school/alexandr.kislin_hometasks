@@ -15,6 +15,7 @@ public class TestThreadPool {
 
         for (int i = 0; i < 12; i++) {
             String threadName = "This is task #"+i;
+            System.out.println(threadName);
             pool.addTask(() -> {
                 try{
                     System.out.println(threadName);
@@ -33,6 +34,7 @@ public class TestThreadPool {
 
         for (int i = 0; i < 12; i++) {
             String threadName = "This is task #"+i;
+            System.out.println(threadName);
             pool.addTask(() -> {
                 try{
                     System.out.println(threadName);
@@ -40,7 +42,7 @@ public class TestThreadPool {
                     throw new RuntimeException("Exception");
                 }catch (InterruptedException e)
                 {
-                    e.printStackTrace();
+                    System.out.println(e.getMessage());
                 }
             });
         }

@@ -22,7 +22,7 @@ public class ThreadPool {
     }
 
     public void addTask(Runnable task) {
-        if (!readyCondition) {
+        if (!poolIsReady()) {
             throw new InvalidStateException("ThreadPool is not ready now, try again later");
         }
         synchronized (pool) {
@@ -55,6 +55,7 @@ public class ThreadPool {
                         try {
                             pool.wait();
                         } catch (InterruptedException e) {
+                            System.out.println("waking up...");
                             break waiting;
                         }
                     }
