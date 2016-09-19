@@ -4,8 +4,6 @@ import sun.plugin.dom.exception.InvalidStateException;
 
 import java.util.Arrays;
 import java.util.LinkedList;
-import java.util.List;
-import java.util.Stack;
 
 /**
  * Created by axel on 18.09.2016.
@@ -19,7 +17,7 @@ public class ThreadPool {
         threads = new InstanceThread[threadCount];
         for (int i = 0; i < threadCount; i++) {
             threads[i] = new InstanceThread("Thread # " + i);
-            threads[i].run();
+            threads[i].start();
         }
     }
 
@@ -62,9 +60,9 @@ public class ThreadPool {
                     }
                 }
             }
-            InstanceThread executor = (InstanceThread) pool.pollFirst();
+            Runnable executor = pool.pollFirst();
             if (executor != null) {
-                System.out.println(executor.getName() + " now starting");
+                System.out.println(getName() + " now starting");
                 try {
                     executor.run();
                 } catch (Exception e) {
