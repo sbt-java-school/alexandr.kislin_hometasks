@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49460d3a-7637-4dd7-b24b-06fbbc9b08c1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Streams/src/main/java/sbt/kislin/hw13_StreamsAPI/MyPipeLine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Streams/src/main/java/sbt/kislin/hw13_StreamsAPI/Streams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Streams/src/test/sbt/kislin/hw13_StreamsAPI/Testing.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Streams/Streams.iml" afterPath="$PROJECT_DIR$/Streams/Streams.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/src/main/java/sbt/kislin/hw13_StreamsAPI/Wrap.java" afterPath="$PROJECT_DIR$/Streams/src/main/java/sbt/kislin/hw13_StreamsAPI/LineCalling.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Streams/src/main/java/sbt/kislin/hw13_StreamsAPI/Streams.java" afterPath="$PROJECT_DIR$/Streams/src/main/java/sbt/kislin/hw13_StreamsAPI/Streams.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Streams/src/test/sbt/kislin/hw13_StreamsAPI/Testing.java" afterPath="$PROJECT_DIR$/Streams/src/test/sbt/kislin/hw13_StreamsAPI/Testing.java" />
     </list>
     <ignored path="HW3_multimap_generics.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,7 +39,7 @@
       <file leaf-file-name="MyPipeLine.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Streams/src/main/java/sbt/kislin/hw13_StreamsAPI/MyPipeLine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-19">
+            <state relative-caret-position="442">
               <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -51,40 +48,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Streams.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Streams.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Streams/src/main/java/sbt/kislin/hw13_StreamsAPI/Streams.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-393">
-              <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+            <state relative-caret-position="138">
+              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#392#393#0" expanded="true" />
-                <element signature="e#428#429#0" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
-                <element signature="e#511#512#0" expanded="true" />
                 <element signature="e#574#575#0" expanded="true" />
                 <element signature="e#614#615#0" expanded="true" />
-                <element signature="e#677#678#0" expanded="true" />
-                <element signature="e#726#727#0" expanded="true" />
-                <element signature="e#1491#1492#0" expanded="true" />
-                <element signature="e#1571#1572#0" expanded="true" />
-                <element signature="e#1774#1780#0" expanded="true" />
-                <element signature="e#2053#2054#0" expanded="true" />
-                <element signature="e#2103#2104#0" expanded="true" />
-                <element signature="e#2270#2271#0" expanded="true" />
-                <element signature="e#2314#2315#0" expanded="true" />
-                <element signature="e#2344#2345#0" expanded="true" />
-                <element signature="e#2381#2382#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Testing.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Testing.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Streams/src/test/sbt/kislin/hw13_StreamsAPI/Testing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+            <state relative-caret-position="289">
+              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,7 +77,7 @@
       <file leaf-file-name="Truck.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sbt/kislin/hw3_multimap_generics/Truck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="408">
               <caret line="30" column="110" selection-start-line="30" selection-start-column="110" selection-end-line="30" selection-end-column="110" />
               <folding />
             </state>
@@ -214,9 +196,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -395,6 +375,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -870,13 +852,17 @@
       <option name="project" value="LOCAL" />
       <updated>1474257210106</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="домашка12, но недоделана ещё, тесты крассные">
+      <created>1474948965140</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1474948965140</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestThreadPool_testThreadPool - 2016.09.19 at 10h 05m 29s.xml">
-      <configuration name="TestThreadPool.testThreadPool" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestThreadPool_testThreadPool - 2016.09.19 at 10h 51m 09s.xml">
       <configuration name="TestThreadPool.testThreadPool" configurationId="JUnit" />
     </history-entry>
@@ -904,6 +890,9 @@
     <history-entry file="Testing_testingFilter - 2016.09.27 at 10h 47m 54s.xml">
       <configuration name="Testing.testingFilter" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Testing_testingFilter - 2016.09.27 at 12h 25m 27s.xml">
+      <configuration name="Testing.testingFilter" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -917,7 +906,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -954,7 +943,8 @@
     <MESSAGE value="ThreadPool, но тесты пока почему-то выполняются очень долго." />
     <MESSAGE value="Разобрался с тестами, готово к проверке." />
     <MESSAGE value="небольшой фан с тестами" />
-    <option name="LAST_COMMIT_MESSAGE" value="небольшой фан с тестами" />
+    <MESSAGE value="домашка12, но недоделана ещё, тесты крассные" />
+    <option name="LAST_COMMIT_MESSAGE" value="домашка12, но недоделана ещё, тесты крассные" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1263,9 +1253,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1273,9 +1260,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
           <caret line="63" column="49" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1283,13 +1267,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Streams/src/main/java/sbt/kislin/hw13_StreamsAPI/MyPipeLine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
+        <state relative-caret-position="442">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1307,45 +1290,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sbt/kislin/hw3_multimap_generics/Truck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="408">
           <caret line="30" column="110" selection-start-line="30" selection-start-column="110" selection-end-line="30" selection-end-column="110" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Streams/src/test/sbt/kislin/hw13_StreamsAPI/Testing.java">
+    <entry file="file://$PROJECT_DIR$/Streams/src/main/java/sbt/kislin/hw13_StreamsAPI/Streams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+        <state relative-caret-position="138">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Streams/src/main/java/sbt/kislin/hw13_StreamsAPI/Streams.java">
+    <entry file="file://$PROJECT_DIR$/Streams/src/test/sbt/kislin/hw13_StreamsAPI/Testing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-393">
-          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+        <state relative-caret-position="289">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#1491#1492#0" expanded="true" />
-            <element signature="e#1571#1572#0" expanded="true" />
-            <element signature="e#1774#1780#0" expanded="true" />
-            <element signature="e#2053#2054#0" expanded="true" />
-            <element signature="e#2103#2104#0" expanded="true" />
-            <element signature="e#2270#2271#0" expanded="true" />
-            <element signature="e#2314#2315#0" expanded="true" />
-            <element signature="e#2344#2345#0" expanded="true" />
-            <element signature="e#2381#2382#0" expanded="true" />
           </folding>
         </state>
       </provider>
