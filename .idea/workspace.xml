@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49460d3a-7637-4dd7-b24b-06fbbc9b08c1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HW16_refactoring/HW16_refactoring.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/alienCode/src/main/java/ru/sbt/bit/ood/solid/homework/builders/HTMLReportBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/alienCode/src/main/java/ru/sbt/bit/ood/solid/homework/dao/JDBCDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/alienCode/src/main/java/ru/sbt/bit/ood/solid/homework/dao/JDBCDaoSalaryImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HW3_multimap_generics.iws" />
@@ -30,9 +29,36 @@
       <file leaf-file-name="SalaryHtmlReportNotifier.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/alienCode/src/main/java/ru/sbt/bit/ood/solid/homework/SalaryHtmlReportNotifier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="476">
+              <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+              <folding>
+                <element signature="e#683#684#0" expanded="true" />
+                <element signature="e#735#736#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JDBCDaoSalaryImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alienCode/src/main/java/ru/sbt/bit/ood/solid/homework/dao/JDBCDaoSalaryImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JDBCDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alienCode/src/main/java/ru/sbt/bit/ood/solid/homework/dao/JDBCDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,8 +66,8 @@
       <file leaf-file-name="HTMLReportBuilder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alienCode/src/main/java/ru/sbt/bit/ood/solid/homework/builders/HTMLReportBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            <state relative-caret-position="221">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#339#340#0" expanded="true" />
@@ -119,6 +145,8 @@
         <option value="$PROJECT_DIR$/Streams/src/test/sbt/kislin/hw13_StreamsAPI/Testing.java" />
         <option value="$PROJECT_DIR$/alienCode/src/main/java/ru/sbt/bit/ood/solid/homework/builders/HTMLBuilder.java" />
         <option value="$PROJECT_DIR$/alienCode/src/main/java/ru/sbt/bit/ood/solid/homework/builders/HTMLReportBuilder.java" />
+        <option value="$PROJECT_DIR$/alienCode/src/main/java/ru/sbt/bit/ood/solid/homework/dao/JDBCDaoSalaryImpl.java" />
+        <option value="$PROJECT_DIR$/alienCode/src/main/java/ru/sbt/bit/ood/solid/homework/dao/JDBCDao.java" />
         <option value="$PROJECT_DIR$/alienCode/src/main/java/ru/sbt/bit/ood/solid/homework/SalaryHtmlReportNotifier.java" />
       </list>
     </option>
@@ -295,6 +323,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeWorks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeWorks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alienCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="homework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="builders" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -306,7 +360,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../alienCode" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ClassWorks" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Project" />
@@ -795,7 +849,14 @@
       <option name="project" value="LOCAL" />
       <updated>1474954413399</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="homework16_refactoring начало работы">
+      <created>1475304869083</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1475304869083</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -881,7 +942,8 @@
     <MESSAGE value="небольшой фан с тестами" />
     <MESSAGE value="домашка12, но недоделана ещё, тесты крассные" />
     <MESSAGE value="домашка12, ещё операции" />
-    <option name="LAST_COMMIT_MESSAGE" value="домашка12, ещё операции" />
+    <MESSAGE value="homework16_refactoring начало работы" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework16_refactoring начало работы" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -902,20 +964,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/sbt/kislin/hw3_multimap_generics/Truck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="30" column="110" selection-start-line="30" selection-start-column="110" selection-end-line="30" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sbt/kislin/hw3_multimap_generics/TruckDaoMemoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sbt/kislin/hw3_multimap_generics/TruckRegistrByModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -1244,8 +1292,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/alienCode/src/main/java/ru/sbt/bit/ood/solid/homework/builders/HTMLReportBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="221">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#339#340#0" expanded="true" />
@@ -1254,11 +1302,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/alienCode/src/main/java/ru/sbt/bit/ood/solid/homework/dao/JDBCDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alienCode/src/main/java/ru/sbt/bit/ood/solid/homework/dao/JDBCDaoSalaryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/alienCode/src/main/java/ru/sbt/bit/ood/solid/homework/SalaryHtmlReportNotifier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="476">
+          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+          <folding>
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
