@@ -22,11 +22,22 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="BeforeMaven" />
         <module name="HomeWorks" />
+        <module name="PluginLoader" />
+        <module name="Refactoring" />
+        <module name="Streams" />
+        <module name="ThreadPool" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="BeforeMaven" target="1.8" />
       <module name="HomeWorks" target="1.8" />
+      <module name="MyCode" target="1.8" />
+      <module name="PluginLoader" target="1.8" />
+      <module name="Refactoring" target="1.8" />
+      <module name="Streams" target="1.8" />
+      <module name="ThreadPool" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

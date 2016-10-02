@@ -1,4 +1,4 @@
-package main.java.ru.sbt.bit.ood.solid.homework.dao;
+package ru.sbt.bit.ood.solid.homework.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
