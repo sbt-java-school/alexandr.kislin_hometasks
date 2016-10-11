@@ -21,6 +21,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNull;
 import static org.mockito.Matchers.anyBoolean;
 import static org.mockito.Mockito.*;
 
@@ -34,6 +35,7 @@ public class TestHTMLBuilder {
     private MimeMessageHelper mockMimeMessageHelper;
     private ResultSet mockResultSet;
     private Connection fakeConnection;
+    private StringBuilder report;
 
     @Before
     public void init() {
@@ -59,7 +61,7 @@ public class TestHTMLBuilder {
     @Test
     public void testBuilder() {
         try {
-            StringBuilder report = builder.buildReport(mockResultSet);
+            report = builder.buildReport(mockResultSet);
             System.out.println(report);
         } catch (SQLException e) {
             System.out.println("Problem in report builder " + e.getMessage());
@@ -68,9 +70,9 @@ public class TestHTMLBuilder {
         try {
             assertActualReportEqualsTo(mockMimeMessageHelper, MockedData.EXPECTED_PATH);
         } catch (MessagingException e) {
-            e.printStackTrace();
+            System.out.println("Messaging problems with "+e.getMessage());
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("IO exception in "+e.getMessage());
         }
     }
 

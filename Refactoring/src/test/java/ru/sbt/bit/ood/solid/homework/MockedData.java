@@ -26,8 +26,6 @@ public class MockedData {
     public static final SimpleDateFormat dateFormatForSQL = new SimpleDateFormat("dd.MM.yyyy");
     public static final String dataFromInString = "01.01.2014";
     public static final String dataToInString = "31.12.2014";
-    private Date dateStartingPeriod;
-    private Date dateEndingPeriod;
 
     public static Date getDateStartingPeriod() throws ParseException {
         return dateFormatForSQL.parse(dataFromInString);

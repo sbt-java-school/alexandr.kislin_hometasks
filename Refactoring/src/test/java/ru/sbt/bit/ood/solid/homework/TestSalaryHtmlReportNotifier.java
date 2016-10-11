@@ -1,13 +1,13 @@
 package ru.sbt.bit.ood.solid.homework;
 
+import org.junit.Assert;
 import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.ArgumentCaptor;
-import org.mockito.Mockito;
 import org.powermock.core.classloader.annotations.PrepareForTest;
 import org.powermock.modules.junit4.PowerMockRunner;
-import org.springframework.mail.javamail.JavaMailSenderImpl;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import ru.sbt.bit.ood.solid.homework.builders.HTMLReportBuilder;
 import ru.sbt.bit.ood.solid.homework.dao.JDBCDaoSalaryImpl;
@@ -15,43 +15,37 @@ import ru.sbt.bit.ood.solid.homework.senders.HTMLReportSender;
 import ru.sbt.bit.ood.solid.homework.senders.Sender;
 
 import javax.mail.MessagingException;
-import javax.mail.internet.MimeMessage;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.sql.Connection;
-import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertTrue;
 import static org.mockito.Mockito.*;
-import static org.powermock.api.mockito.PowerMockito.whenNew;
 
 
 @RunWith(PowerMockRunner.class)
 @PrepareForTest(value = {Sender.class, HTMLReportSender.class, SalaryHtmlReportNotifier.class, HTMLReportBuilder.class})
 public class TestSalaryHtmlReportNotifier {
 
-    private Connection someFakeConnection;
-    private ResultSet mockResultSet;
-    private HTMLReportBuilder builder;
-    private HTMLReportSender sender;
-    private JDBCDaoSalaryImpl salary;
-//    private SimpleDateFormat dateFormatForSQL = new SimpleDateFormat("dd.MM.yyyy");
-//    private final String dataFromInString = "01.01.2014";
-//    private final String dataToInString = "31.12.2014";
-    private Date dateStartingPeriod;
-    private Date dateEndingPeriod;
-    private MimeMessageHelper mockMimeMessageHelper;
+    private static Connection someFakeConnection;
+    private static ResultSet mockResultSet;
+    private static HTMLReportBuilder builder;
+    private static HTMLReportSender sender;
+    private static JDBCDaoSalaryImpl salary;
+    private static Date dateStartingPeriod;
+    private static Date dateEndingPeriod;
+    private static MimeMessageHelper mockMimeMessageHelper;
 
-    @Before
-    public void initParams() {
+    @BeforeClass
+    public static void initParams() {
         try {
             dateStartingPeriod = MockedData.getDateStartingPeriod();
             dateEndingPeriod = MockedData.getDateEndingPeriod();
@@ -81,32 +75,33 @@ public class TestSalaryHtmlReportNotifier {
 
     @Test
     public void testDBRequest() {
-        ResultSet mockedResultFromDB = null;
-        boolean sqlException = false;
         try {
-            mockedResultFromDB = salary.getDataSet(dateStartingPeriod, dateEndingPeriod);
+            ResultSet mockedResultFromDB = salary.getDataSet(dateStartingPeriod, dateEndingPeriod);
             System.out.println(mockedResultFromDB);
         } catch (SQLException e) {
-            sqlException = true;
             System.out.println(e.getMessage());
-            assertTrue(sqlException);
+            assert true;
         }
     }
 
-
     @Test
-    public void generatedEqualGood() throws Exception {
-        SalaryHtmlReportNotifier notificator = new SalaryHtmlReportNotifier(someFakeConnection, sender, builder);
-        notificator.generateAndSendHtmlSalaryReport("10", dateStartingPeriod, dateEndingPeriod, "somebody@gmail.com");
-        assertActualReportEqualsTo(mockMimeMessageHelper, MockedData.EXPECTED_PATH);
+    public void testBuilder() {
+        try {
+            StringBuilder report = builder.buildReport(mockResultSet);
+            Assert.assertNotNull(report);
+        } catch (SQLException e) {
+            System.out.println("Problem in report builder " + e.getMessage());
+            assert true;
+        } catch (Exception e) {
+            System.out.println("Smth exception "+e.getMessage());
+            assert true;
+        }
     }
 
-
-    private void assertActualReportEqualsTo(MimeMessageHelper mockMimeMessageHelper, String expectedReportPath) throws MessagingException, IOException {
-        ArgumentCaptor<String> messageTextArgumentCaptor = ArgumentCaptor.forClass(String.class);
-        verify(mockMimeMessageHelper).setText(messageTextArgumentCaptor.capture(), anyBoolean());
-        Path path = Paths.get(expectedReportPath);
-        String expectedReportContent = new String(Files.readAllBytes(path));
-        assertEquals(messageTextArgumentCaptor.getValue(), expectedReportContent);
+    @Test
+    public void testSender() throws SQLException {
+        ResultSet resultSet = MockedData.getMockedResultSet(someFakeConnection);
+        StringBuilder report = builder.buildReport(resultSet);
+        sender.sendHTML("someone@gmail.com",report);
     }
 }
