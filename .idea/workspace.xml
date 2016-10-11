@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49460d3a-7637-4dd7-b24b-06fbbc9b08c1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HomeWorks.iml" afterPath="$PROJECT_DIR$/HomeWorks.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-    </list>
+    <list default="true" id="49460d3a-7637-4dd7-b24b-06fbbc9b08c1" name="Default" comment="" />
     <ignored path="HW3_multimap_generics.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,6 +12,7 @@
     <ignored path="$PROJECT_DIR$/ThreadPool/target/" />
     <ignored path="$PROJECT_DIR$/Streams/target/" />
     <ignored path="$PROJECT_DIR$/Refactoring/target/" />
+    <ignored path="$PROJECT_DIR$/ScoringSystem/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,62 +29,72 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="TestSalaryHtmlReportNotifier.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Refactoring/src/test/java/ru/sbt/bit/ood/solid/homework/TestSalaryHtmlReportNotifier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+            <state relative-caret-position="1190">
+              <caret line="101" column="5" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MockedData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Refactoring/src/test/java/ru/sbt/bit/ood/solid/homework/MockedData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="41" column="56" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Streams/pom.xml">
+      <file leaf-file-name="TestHTMLBuilder.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Refactoring/src/test/java/ru/sbt/bit/ood/solid/homework/TestHTMLBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-              <folding />
+            <state relative-caret-position="345">
+              <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Refactoring/pom.xml">
+      <file leaf-file-name="HTMLReportBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Refactoring/src/main/java/ru/sbt/bit/ood/solid/homework/builders/HTMLReportBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-185">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="153">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PluginLoader/pom.xml">
+      <file leaf-file-name="JDBCDaoSalaryImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Refactoring/src/main/java/ru/sbt/bit/ood/solid/homework/dao/JDBCDaoSalaryImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-              <folding />
+            <state relative-caret-position="340">
+              <caret line="24" column="76" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThreadPool/pom.xml">
+      <file leaf-file-name="SalaryHtmlReportNotifier.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Refactoring/src/main/java/ru/sbt/bit/ood/solid/homework/SalaryHtmlReportNotifier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BeforeMaven/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="357">
+              <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,17 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/sbt/kislin/hw_FileAPIAndNIO/MainClassicIO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sbt/kislin/hw_FileAPIAndNIO/MainNIO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sbt/kislin/hw_FileAPIAndNIO/FileWalker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sbt/kislin/hw6_CachedProxy/CachedInvocationsHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sbt/kislin/hw_SerrealizationProxy/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sbt/kislin/hw_SerrealizationProxy/Period.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sbt/kislin/hw_treadToying/Ьфшт.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sbt/kislin/hw_treadToying/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sbt/kislin/hw_treadToying/ExampleThread.java" />
-        <option value="$PROJECT_DIR$/PluginLoader/src/main/java/sbt/kislin/Plugin.java" />
-        <option value="$PROJECT_DIR$/PluginLoader/src/main/java/sbt/kislin/hw11_PluginDownloader/Plugin.java" />
         <option value="$PROJECT_DIR$/PluginLoader/src/main/java/sbt/kislin/hw11_PluginDownloader/PluginImpl.java" />
         <option value="$PROJECT_DIR$/PluginLoader/src/main/java/sbt/kislin/hw11_PluginDownloader/directory/PluginManager.java" />
         <option value="$PROJECT_DIR$/PluginLoader/src/main/java/sbt/kislin/hw11_PluginDownloader/PluginManager.java" />
@@ -163,7 +159,18 @@
         <option value="$PROJECT_DIR$/Streams/pom.xml" />
         <option value="$PROJECT_DIR$/BeforeMaven/src/main/java/sbt/kislin/hw3_multimap_generics/main.java" />
         <option value="$PROJECT_DIR$/Refactoring/pom.xml" />
+        <option value="$PROJECT_DIR$/ScoringSystem/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ScoringSystem/src/main/java/AbstactNode.java" />
+        <option value="$PROJECT_DIR$/ScoringSystem/src/main/java/Node.java" />
+        <option value="$PROJECT_DIR$/ScoringSystem/src/main/java/ParameterNode.java" />
+        <option value="$PROJECT_DIR$/ScoringSystem/src/main/java/Plus.java" />
+        <option value="$PROJECT_DIR$/ScoringSystem/src/main/java/AbstractNode.java" />
+        <option value="$PROJECT_DIR$/ScoringSystem/src/main/java/Minus.java" />
+        <option value="$PROJECT_DIR$/Refactoring/src/test/java/ru/sbt/bit/ood/solid/homework/TestHTMLBulder.java" />
+        <option value="$PROJECT_DIR$/Refactoring/src/test/java/ru/sbt/bit/ood/solid/homework/MockedData.java" />
+        <option value="$PROJECT_DIR$/Refactoring/src/test/java/ru/sbt/bit/ood/solid/homework/TestSalaryHtmlReportNotifier.java" />
+        <option value="$PROJECT_DIR$/Refactoring/src/test/java/ru/sbt/bit/ood/solid/homework/TestHTMLBuilder.java" />
       </list>
     </option>
   </component>
@@ -214,20 +221,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane">
         <subPane />
       </pane>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -246,13 +243,247 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeWorks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeWorks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Refactoring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeWorks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeWorks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Refactoring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeWorks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeWorks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Refactoring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="homework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeWorks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeWorks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Refactoring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeWorks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeWorks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Refactoring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="homework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeWorks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeWorks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Refactoring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="homework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="senders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeWorks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeWorks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Refactoring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="homework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeWorks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeWorks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Refactoring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="homework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="builders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hw_maven/MyCode" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="last_opened_file_path" value="D:/Git/git-bash.exe" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15234375" />
@@ -268,17 +499,11 @@
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$/../ClassWorks" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\sbt_training\HomeWorks" />
-      <recent name="D:\sbt_training\HomeWorks\BeforeMaven\src" />
-      <recent name="D:\sbt_training\HomeWorks\BeforeMaven" />
-      <recent name="D:\sbt_training\HomeWorks\HW17_Refactoring" />
-      <recent name="D:\sbt_training\HomeWorks\RefactoringCode\src\main\java\ru\sbt\bit\ood\solid\homework\senders" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\sbt_training\HomeWorks\ScoringSystem" />
       <recent name="D:\sbt_training\HomeWorks\Streams" />
       <recent name="D:\sbt_training\HomeWorks\ThreadPool" />
       <recent name="D:\sbt_training\HomeWorks\PluginLoader" />
@@ -287,46 +512,27 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="sbt.kislin.hw6_CachedProxy" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\sbt_training\HomeWorks" />
+      <recent name="D:\sbt_training\HomeWorks\BeforeMaven\src" />
+      <recent name="D:\sbt_training\HomeWorks\BeforeMaven" />
+      <recent name="D:\sbt_training\HomeWorks\HW17_Refactoring" />
+      <recent name="D:\sbt_training\HomeWorks\RefactoringCode\src\main\java\ru\sbt\bit\ood\solid\homework\senders" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestThreadPool.testThreadPool">
-    <configuration default="false" name="TestSalaryHtmlReportNotifier.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestHTMLBuilder.testBuilder">
+    <configuration default="false" name="TestSalaryHtmlReportNotifier" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="java.ru.sbt.bit.ood.solid.homework.*" />
+          <option name="PATTERN" value="ru.sbt.bit.ood.solid.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="RefactoringCode" />
+      <module name="Refactoring" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="java.ru.sbt.bit.ood.solid.homework" />
-      <option name="MAIN_CLASS_NAME" value="java.ru.sbt.bit.ood.solid.homework.TestSalaryHtmlReportNotifier" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestSalaryHtmlReportNotifier (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="java.ru.sbt.bit.ood.solid.homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="RefactoringCode" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="java.ru.sbt.bit.ood.solid.homework" />
-      <option name="MAIN_CLASS_NAME" value="java.ru.sbt.bit.ood.solid.homework.TestSalaryHtmlReportNotifier" />
+      <option name="PACKAGE_NAME" value="ru.sbt.bit.ood.solid.homework" />
+      <option name="MAIN_CLASS_NAME" value="ru.sbt.bit.ood.solid.homework.TestSalaryHtmlReportNotifier" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -341,19 +547,19 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="TestSalaryHtmlReportNotifier.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="TestSalaryHtmlReportNotifier.generatedEqualGood" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="ru.sbt.bit.ood.solid.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="MyCode" />
+      <module name="Refactoring" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.sbt.bit.ood.solid.homework" />
       <option name="MAIN_CLASS_NAME" value="ru.sbt.bit.ood.solid.homework.TestSalaryHtmlReportNotifier" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="METHOD_NAME" value="generatedEqualGood" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -367,19 +573,45 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="TestSalaryHtmlReportNotifier.test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="TestHTMLBuilder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="ru.sbt.bit.ood.solid.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="HomeWorks" />
+      <module name="Refactoring" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.sbt.bit.ood.solid.homework" />
-      <option name="MAIN_CLASS_NAME" value="ru.sbt.bit.ood.solid.homework.TestSalaryHtmlReportNotifier" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="ru.sbt.bit.ood.solid.homework.TestHTMLBuilder" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestHTMLBuilder.testBuilder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ru.sbt.bit.ood.solid.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Refactoring" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ru.sbt.bit.ood.solid.homework" />
+      <option name="MAIN_CLASS_NAME" value="ru.sbt.bit.ood.solid.homework.TestHTMLBuilder" />
+      <option name="METHOD_NAME" value="testBuilder" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -393,19 +625,19 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="TestThreadPool.testThreadPool" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="TestSalaryHtmlReportNotifier.testDBRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="main.kislin.java.sbt.*" />
+          <option name="PATTERN" value="ru.sbt.bit.ood.solid.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="ThreadPool" />
+      <module name="Refactoring" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="main.kislin.java.sbt" />
-      <option name="MAIN_CLASS_NAME" value="main.kislin.java.sbt.TestThreadPool" />
-      <option name="METHOD_NAME" value="testThreadPool" />
+      <option name="PACKAGE_NAME" value="ru.sbt.bit.ood.solid.homework" />
+      <option name="MAIN_CLASS_NAME" value="ru.sbt.bit.ood.solid.homework.TestSalaryHtmlReportNotifier" />
+      <option name="METHOD_NAME" value="testDBRequest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -686,19 +918,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TestSalaryHtmlReportNotifier.test (1)" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestSalaryHtmlReportNotifier (1)" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestSalaryHtmlReportNotifier.test" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestSalaryHtmlReportNotifier.test (2)" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestThreadPool.testThreadPool" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TestSalaryHtmlReportNotifier" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestSalaryHtmlReportNotifier.generatedEqualGood" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestHTMLBuilder" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestHTMLBuilder.testBuilder" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestSalaryHtmlReportNotifier.testDBRequest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestThreadPool.testThreadPool" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestSalaryHtmlReportNotifier.test (2)" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestSalaryHtmlReportNotifier.test" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestSalaryHtmlReportNotifier (1)" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestSalaryHtmlReportNotifier.test (1)" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestHTMLBuilder.testBuilder" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestSalaryHtmlReportNotifier" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestSalaryHtmlReportNotifier.testDBRequest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestHTMLBuilder" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestSalaryHtmlReportNotifier.generatedEqualGood" />
       </list>
     </recent_temporary>
   </component>
@@ -807,43 +1039,50 @@
       <option name="project" value="LOCAL" />
       <updated>1475417554559</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Поправил общий помник">
+      <created>1475417819489</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1475417819489</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSalaryHtmlReportNotifier_test - 2016.10.02 at 19h 45m 50s.xml">
-      <configuration name="TestSalaryHtmlReportNotifier.test" configurationId="JUnit" />
+    <history-entry file="TestHTMLBuilder_testBuilder - 2016.10.07 at 10h 15m 00s.xml">
+      <configuration name="TestHTMLBuilder.testBuilder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSalaryHtmlReportNotifier_test_(2) - 2016.10.02 at 19h 53m 10s.xml">
-      <configuration name="TestSalaryHtmlReportNotifier.test (2)" configurationId="JUnit" />
+    <history-entry file="TestHTMLBuilder_testBuilder - 2016.10.07 at 10h 17m 58s.xml">
+      <configuration name="TestHTMLBuilder.testBuilder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestThreadPool_testThreadPool - 2016.10.02 at 21h 07m 52s.xml">
-      <configuration name="TestThreadPool.testThreadPool" configurationId="JUnit" />
+    <history-entry file="TestHTMLBuilder_testBuilder - 2016.10.07 at 10h 18m 31s.xml">
+      <configuration name="TestHTMLBuilder.testBuilder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Testing_testingFilter - 2016.09.27 at 10h 38m 23s.xml">
-      <configuration name="Testing.testingFilter" configurationId="JUnit" />
+    <history-entry file="TestHTMLBuilder_testBuilder - 2016.10.07 at 10h 19m 12s.xml">
+      <configuration name="TestHTMLBuilder.testBuilder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Testing_testingFilter - 2016.09.27 at 10h 38m 45s.xml">
-      <configuration name="Testing.testingFilter" configurationId="JUnit" />
+    <history-entry file="TestHTMLBuilder_testBuilder - 2016.10.07 at 11h 24m 30s.xml">
+      <configuration name="TestHTMLBuilder.testBuilder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Testing_testingFilter - 2016.09.27 at 10h 40m 28s.xml">
-      <configuration name="Testing.testingFilter" configurationId="JUnit" />
+    <history-entry file="TestHTMLBuilder_testBuilder - 2016.10.11 at 09h 08m 31s.xml">
+      <configuration name="TestHTMLBuilder.testBuilder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Testing_testingFilter - 2016.09.27 at 10h 43m 31s.xml">
-      <configuration name="Testing.testingFilter" configurationId="JUnit" />
+    <history-entry file="TestSalaryHtmlReportNotifier - 2016.10.07 at 11h 26m 01s.xml">
+      <configuration name="TestSalaryHtmlReportNotifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Testing_testingFilter - 2016.09.27 at 10h 46m 21s.xml">
-      <configuration name="Testing.testingFilter" configurationId="JUnit" />
+    <history-entry file="TestSalaryHtmlReportNotifier_testDBRequest - 2016.10.07 at 01h 40m 36s.xml">
+      <configuration name="TestSalaryHtmlReportNotifier.testDBRequest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Testing_testingFilter - 2016.09.27 at 10h 47m 54s.xml">
-      <configuration name="Testing.testingFilter" configurationId="JUnit" />
+    <history-entry file="TestSalaryHtmlReportNotifier_testDBRequest - 2016.10.07 at 01h 49m 22s.xml">
+      <configuration name="TestSalaryHtmlReportNotifier.testDBRequest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Testing_testingFilter - 2016.09.27 at 12h 25m 27s.xml">
-      <configuration name="Testing.testingFilter" configurationId="JUnit" />
+    <history-entry file="TestSalaryHtmlReportNotifier_testDBRequest - 2016.10.07 at 11h 25m 18s.xml">
+      <configuration name="TestSalaryHtmlReportNotifier.testDBRequest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -853,12 +1092,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.100292824" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24816984" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24597365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -897,7 +1136,8 @@
     <MESSAGE value="homework16_refactoring дао и билдер" />
     <MESSAGE value="homework16_refactoring сендер, но не факт что ровно работает, ибо кодил в электричке без интернета" />
     <MESSAGE value="Порядок в проекте, надеюсь что он" />
-    <option name="LAST_COMMIT_MESSAGE" value="Порядок в проекте, надеюсь что он" />
+    <MESSAGE value="Поправил общий помник" />
+    <option name="LAST_COMMIT_MESSAGE" value="Поправил общий помник" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -909,7 +1149,10 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="8" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -918,111 +1161,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PluginLoader/src/main/java/sbt/kislin/hw11_PluginDownloader/ClassLoaderForPlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadPool/src/main/java/sbt/kislin/ThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="63" column="49" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Streams/src/main/java/sbt/kislin/hw13_StreamsAPI/LineCalling.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Streams/src/test/sbt/kislin/hw13_StreamsAPI/Testing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Streams/src/main/java/sbt/kislin/hw13_StreamsAPI/Streams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BeforeMaven/src/main/java/sbt/kislin/hw_FileAPIAndNIO/MainClassicIO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BeforeMaven/src/main/java/sbt/kislin/hw_FileAPIAndNIO/MainNIO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BeforeMaven/src/main/java/sbt/kislin/hw3_multimap_generics/Truck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="30" column="110" selection-start-line="30" selection-start-column="110" selection-end-line="30" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../refact/src/main/java/ru/sbt/bit/ood/solid/homework/SalaryHtmlReportNotifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alienCode/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/alienCode/src/main/java/ru/sbt/bit/ood/solid/homework/SalaryHtmlReportNotifier.java" />
     <entry file="file://$PROJECT_DIR$/alienCode/solid-homework.iml" />
     <entry file="file://$PROJECT_DIR$/alienCode/src/test/resources/expectedReport.html" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/powermock/powermock-core/1.6.5/powermock-core-1.6.5.jar!/org/powermock/tests/utils/impl/ArrayMergerImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/powermock/powermock-api-mockito/1.6.5/powermock-api-mockito-1.6.5.jar!/org/powermock/api/mockito/internal/expectation/DefaultConstructorExpectationSetup.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/powermock/powermock-api-mockito/1.6.5/powermock-api-mockito-1.6.5.jar!/org/powermock/api/mockito/PowerMockito.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="181" column="45" selection-start-line="181" selection-start-column="45" selection-end-line="181" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/powermock/powermock-core/1.6.5/powermock-core-1.6.5.jar!/org/powermock/tests/utils/impl/ArrayMergerImpl.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/powermock/powermock-api-mockito/1.6.5/powermock-api-mockito-1.6.5.jar!/org/powermock/api/mockito/internal/expectation/DefaultConstructorExpectationSetup.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/powermock/powermock-api-mockito/1.6.5/powermock-api-mockito-1.6.5.jar!/org/powermock/api/mockito/PowerMockito.class" />
     <entry file="file://$PROJECT_DIR$/alienCode/src/test/java/ru/sbt/bit/ood/solid/homework/TestSalaryHtmlReportNotifier.java" />
     <entry file="file://$PROJECT_DIR$/alienCode/src/main/java/ru/sbt/bit/ood/solid/homework/senders/HTMLReportSender.java" />
     <entry file="file://$PROJECT_DIR$/alienCode/src/main/java/ru/sbt/bit/ood/solid/homework/dao/JDBCDaoSalaryImpl.java" />
@@ -1036,17 +1179,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-334">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.2.RELEASE/spring-core-4.3.2.RELEASE.jar!/org/springframework/core/NestedRuntimeException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.2.RELEASE/spring-core-4.3.2.RELEASE.jar!/org/springframework/core/NestedRuntimeException.class" />
     <entry file="file://$PROJECT_DIR$/../refact/src/test/java/ru/sbt/bit/ood/solid/homework/TestSalaryHtmlReportNotifier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1061,13 +1197,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/4.3.2.RELEASE/spring-context-support-4.3.2.RELEASE.jar!/org/springframework/mail/MailException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/4.3.2.RELEASE/spring-context-support-4.3.2.RELEASE.jar!/org/springframework/mail/MailException.class" />
     <entry file="file://$PROJECT_DIR$/RefactoringCode/src/main/java/ru/sbt/bit/ood/solid/homework/senders/HTMLReportSender.java" />
     <entry file="file://$PROJECT_DIR$/RefactoringCode/src/main/java/ru/sbt/bit/ood/solid/homework/SalaryHtmlReportNotifier.java" />
     <entry file="file://$PROJECT_DIR$/RefactoringCode/src/test/java/ru/sbt/bit/ood/solid/homework/TestSalaryHtmlReportNotifier.java" />
@@ -1076,38 +1206,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HW17_Refactoring/src/test/java/ru/sbt/bit/ood/solid/homework/TestSalaryHtmlReportNotifier.java">
+    <entry file="file://$PROJECT_DIR$/HW17_Refactoring/src/test/java/ru/sbt/bit/ood/solid/homework/TestSalaryHtmlReportNotifier.java" />
+    <entry file="file://$PROJECT_DIR$/HW17_Refactoring/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/HW17_Refactoring/MyCode.iml" />
+    <entry file="file://$PROJECT_DIR$/BeforeMaven/src/main/java/sbt/kislin/hw3_multimap_generics/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
-          <folding />
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HW17_Refactoring/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../hw_maven/MyCode/MyCode.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="-96">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HW17_Refactoring/MyCode.iml">
+    <entry file="file://$PROJECT_DIR$/ThreadPool/src/test/main/kislin/java/sbt/TestThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hw_maven/MyCode/src/main/java/ru/sbt/bit/ood/solid/homework/senders/HTMLReportSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hw_maven/MyCode/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Streams/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding />
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadPool/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Refactoring/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="17">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1116,15 +1266,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BeforeMaven/src/main/java/sbt/kislin/hw3_multimap_generics/main.java">
+    <entry file="file://$PROJECT_DIR$/ThreadPool/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="187">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1132,63 +1280,122 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hw_maven/MyCode/MyCode.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadPool/src/test/main/kislin/java/sbt/TestThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hw_maven/MyCode/src/main/java/ru/sbt/bit/ood/solid/homework/senders/HTMLReportSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hw_maven/MyCode/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Streams/pom.xml">
+    <entry file="file://$PROJECT_DIR$/ScoringSystem/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Refactoring/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-185">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding />
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+        <state relative-caret-position="204">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoringSystem/src/main/java/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoringSystem/src/main/java/Plus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoringSystem/src/main/java/Minus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoringSystem/src/main/java/ParameterNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoringSystem/src/main/java/AbstractNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Refactoring/src/main/java/ru/sbt/bit/ood/solid/homework/SalaryHtmlReportNotifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Refactoring/src/test/resources/expectedReport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="68" selection-start-line="0" selection-start-column="68" selection-end-line="0" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Refactoring/src/main/java/ru/sbt/bit/ood/solid/homework/builders/HTMLReportBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Refactoring/src/main/java/ru/sbt/bit/ood/solid/homework/dao/JDBCDaoSalaryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" column="76" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Refactoring/src/test/java/ru/sbt/bit/ood/solid/homework/MockedData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="41" column="56" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Refactoring/src/test/java/ru/sbt/bit/ood/solid/homework/TestSalaryHtmlReportNotifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="101" column="5" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Refactoring/src/test/java/ru/sbt/bit/ood/solid/homework/TestHTMLBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

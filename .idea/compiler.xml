@@ -26,6 +26,7 @@
         <module name="HomeWorks" />
         <module name="PluginLoader" />
         <module name="Refactoring" />
+        <module name="ScoringSystem" />
         <module name="Streams" />
         <module name="ThreadPool" />
       </profile>
@@ -36,6 +37,7 @@
       <module name="MyCode" target="1.8" />
       <module name="PluginLoader" target="1.8" />
       <module name="Refactoring" target="1.8" />
+      <module name="ScoringSystem" target="1.8" />
       <module name="Streams" target="1.8" />
       <module name="ThreadPool" target="1.8" />
     </bytecodeTargetLevel>

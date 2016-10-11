@@ -10,6 +10,7 @@
         <module>ThreadPool</module>
         <module>Streams</module>
         <module>Refactoring</module>
+        <module>ScoringSystem</module>
     </modules>
 
     <build>
