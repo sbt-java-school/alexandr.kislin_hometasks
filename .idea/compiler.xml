@@ -23,7 +23,10 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="BeforeMaven" />
+        <module name="fortune-teller" />
+        <module name="Fortune-teller" />
         <module name="HomeWorks" />
+        <module name="Pattern_trying" />
         <module name="PluginLoader" />
         <module name="Refactoring" />
         <module name="ScoringSystem" />
@@ -33,8 +36,11 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="BeforeMaven" target="1.8" />
+      <module name="Fortune-teller" target="1.8" />
+      <module name="fortune-teller" target="1.8" />
       <module name="HomeWorks" target="1.8" />
       <module name="MyCode" target="1.8" />
+      <module name="Pattern_trying" target="1.8" />
       <module name="PluginLoader" target="1.8" />
       <module name="Refactoring" target="1.8" />
       <module name="ScoringSystem" target="1.8" />

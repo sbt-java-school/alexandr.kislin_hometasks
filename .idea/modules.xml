@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BeforeMaven/BeforeMaven.iml" filepath="$PROJECT_DIR$/BeforeMaven/BeforeMaven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Fortune-teller/Fortune-teller.iml" filepath="$PROJECT_DIR$/Fortune-teller/Fortune-teller.iml" />
       <module fileurl="file://$PROJECT_DIR$/HomeWorks.iml" filepath="$PROJECT_DIR$/HomeWorks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pattern_trying/Pattern_trying.iml" filepath="$PROJECT_DIR$/Pattern_trying/Pattern_trying.iml" />
       <module fileurl="file://$PROJECT_DIR$/PluginLoader/PluginLoader.iml" filepath="$PROJECT_DIR$/PluginLoader/PluginLoader.iml" />
       <module fileurl="file://$PROJECT_DIR$/Refactoring/Refactoring.iml" filepath="$PROJECT_DIR$/Refactoring/Refactoring.iml" />
       <module fileurl="file://$PROJECT_DIR$/ScoringSystem/ScoringSystem.iml" filepath="$PROJECT_DIR$/ScoringSystem/ScoringSystem.iml" />
