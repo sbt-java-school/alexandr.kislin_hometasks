@@ -16,6 +16,7 @@ public class Main {
             } catch (InterruptedException e) {
                 e.printStackTrace();
                 System.out.println("Прерывание основного потока");
+                Thread.currentThread().interrupt();
             }
             System.out.println("Завершение основного потока");
         }

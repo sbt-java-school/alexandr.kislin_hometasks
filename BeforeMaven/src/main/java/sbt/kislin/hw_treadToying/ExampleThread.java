@@ -22,6 +22,7 @@ public class ExampleThread implements Runnable {
             } catch (InterruptedException e) {
                 e.printStackTrace();
                 System.out.println(thrd.getName()+" прерван");
+                Thread.currentThread().interrupt();
             }
             System.out.println("Завершение потока "+thrd.getName());
         }

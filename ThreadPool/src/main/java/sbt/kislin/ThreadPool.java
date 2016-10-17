@@ -10,7 +10,8 @@ import java.util.LinkedList;
  */
 public class ThreadPool {
     private boolean readyCondition = true;
-    private LinkedList<Runnable> pool = new LinkedList<>();
+    private boolean isInterrupt = false;
+    private final LinkedList<Runnable> pool = new LinkedList<>();
     private InstanceThread[] threads;
 
     public ThreadPool(int threadCount) {
@@ -48,15 +49,14 @@ public class ThreadPool {
 
         @Override
         public void run() {
-            waiting:
-            while (true) {
+            while (!isInterrupt) {
                 synchronized (pool) {
                     while (pool.isEmpty()) {
                         try {
                             pool.wait();
                         } catch (InterruptedException e) {
                             System.out.println("waking up...");
-                            break waiting;
+                            isInterrupt = true;
                         }
                     }
                 }
@@ -70,6 +70,7 @@ public class ThreadPool {
                     System.out.println("error in " + e.getMessage());
                 }
             }
+            isInterrupt=false;
         }
     }
 }

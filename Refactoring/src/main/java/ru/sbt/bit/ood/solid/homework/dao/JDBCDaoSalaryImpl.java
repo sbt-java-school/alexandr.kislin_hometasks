@@ -28,9 +28,9 @@ public class JDBCDaoSalaryImpl implements JDBCDao {
         PreparedStatement ps = connection.prepareStatement("select emp.id as emp_id, emp.name as amp_name, sum(salary) as salary from employee emp left join" +
                 "salary_payments sp on emp.id = sp.employee_id where emp.department_id = ? and" +
                 " sp.date >= ? and sp.date <= ? group by emp.id, emp.name");
-        ps.setString(0, departmentId);
-        ps.setDate(1, new java.sql.Date(dateFrom.getTime()));
-        ps.setDate(2, new java.sql.Date(dateTo.getTime()));
+        ps.setString(1, departmentId);
+        ps.setDate(2, new java.sql.Date(dateFrom.getTime()));
+        ps.setDate(3, new java.sql.Date(dateTo.getTime()));
 
         ResultSet result = ps.executeQuery();
         ps.close();
