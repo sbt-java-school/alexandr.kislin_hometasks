@@ -25,7 +25,6 @@
         <module name="BeforeMaven" />
         <module name="fortune-teller" />
         <module name="Fortune-teller" />
-        <module name="HomeWorks" />
         <module name="Pattern_trying" />
         <module name="PluginLoader" />
         <module name="Refactoring" />
