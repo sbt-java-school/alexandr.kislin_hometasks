@@ -13,6 +13,11 @@ public class JDBCDaoSalaryImpl implements JDBCDao {
     private final Connection connection;
     private final String departmentId;
 
+    /**
+     *
+     * @param connection - active connection to database
+     * @param departmentId - number of department, where workers was finding
+     */
     public JDBCDaoSalaryImpl(Connection connection, String departmentId) {
         this.connection = connection;
         this.departmentId = departmentId;
@@ -26,6 +31,9 @@ public class JDBCDaoSalaryImpl implements JDBCDao {
         ps.setString(0, departmentId);
         ps.setDate(1, new java.sql.Date(dateFrom.getTime()));
         ps.setDate(2, new java.sql.Date(dateTo.getTime()));
-        return ps.executeQuery();
+
+        ResultSet result = ps.executeQuery();
+        ps.close();
+        return result;
     }
 }
