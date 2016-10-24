@@ -1,8 +1,11 @@
 package ru.sbt.bit.ood.solid.homework.senders;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
 import org.springframework.mail.javamail.MimeMessageHelper;
 
+import javax.mail.IllegalWriteException;
 import javax.mail.internet.MimeMessage;
 
 /**
@@ -10,6 +13,7 @@ import javax.mail.internet.MimeMessage;
  */
 public class HTMLReportSender implements Sender {
     private static final String HOST_NAME = "mail.google.com";
+    private static Logger LOGGER = LogManager.getRootLogger();
 
     @Override
     public void sendHTML(String recipients, StringBuilder ReportInHtml) {
@@ -23,8 +27,8 @@ public class HTMLReportSender implements Sender {
             helper.setSubject("Monthly department salary report");
             mailSender.send(message);
         } catch (Exception e) {
-            System.out.println(e.getMessage());
-            throw new RuntimeException("Exception into sendReport");
+            LOGGER.error(e);
+            throw new IllegalStateException("Exception into sendReport");
         }
     }
 }

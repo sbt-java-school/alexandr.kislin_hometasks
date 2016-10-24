@@ -1,5 +1,8 @@
 package sbt.kislin;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.util.Arrays;
 import java.util.LinkedList;
 
@@ -11,6 +14,7 @@ public class ThreadPool {
     private boolean isInterrupt = false;
     private final LinkedList<Runnable> pool = new LinkedList<>();
     private InstanceThread[] threads;
+    private static Logger LOGGER = LogManager.getRootLogger();
 
     public ThreadPool(int threadCount) {
         threads = new InstanceThread[threadCount];
@@ -22,7 +26,7 @@ public class ThreadPool {
 
     public void addTask(Runnable task) {
         if (!poolIsReady()) {
-            throw new RuntimeException("ThreadPool is not ready now, try again later");
+            throw new IllegalStateException("ThreadPool is not ready now, try again later");
         }
         synchronized (pool) {
             pool.add(task);
@@ -53,7 +57,8 @@ public class ThreadPool {
                         try {
                             pool.wait();
                         } catch (InterruptedException e) {
-                            System.out.println("waking up...");
+                            LOGGER.info(e);
+                            Thread.currentThread().interrupt();
                             isInterrupt = true;
                         }
                     }

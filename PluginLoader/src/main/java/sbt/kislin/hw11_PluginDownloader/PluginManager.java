@@ -1,5 +1,8 @@
 package sbt.kislin.hw11_PluginDownloader;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -9,6 +12,7 @@ import java.net.URL;
  */
 public class PluginManager {
     private final String pluginRootDirectory;
+    private static Logger LOGGER = LogManager.getRootLogger();
 
     public PluginManager(String pluginRootDirectory) {
         this.pluginRootDirectory = pluginRootDirectory;
@@ -19,7 +23,14 @@ public class PluginManager {
         try {
             loader.close();
         } catch (IOException e) {
-            System.out.println("Trouble with loader in "+e.getMessage());
+            LOGGER.error(e);
+        }
+        finally {
+            try {
+                loader.close();
+            } catch (IOException e) {
+                LOGGER.error(e);
+            }
         }
         return plugin;
     }

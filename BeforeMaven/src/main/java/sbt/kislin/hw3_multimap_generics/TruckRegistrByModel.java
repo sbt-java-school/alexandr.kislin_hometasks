@@ -1,5 +1,8 @@
 package sbt.kislin.hw3_multimap_generics;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.util.*;
 
 /**
@@ -8,17 +11,17 @@ import java.util.*;
 public class TruckRegistrByModel implements TruckRegistr<main.modelsOfTrucks, Truck> {
 
     private Map<main.modelsOfTrucks, List<Truck>> modelsOfTrucksMap = new HashMap<>();
+    private static Logger LOGGER = LogManager.getRootLogger();
 
     @Override
     public List<Truck> get(main.modelsOfTrucks model) {
         List<Truck> thisMoodelTrucks = new ArrayList<>();
         try {
             thisMoodelTrucks = modelsOfTrucksMap.get(model);
-        }
-        catch (NullPointerException n) //возможно тут другой эксепшн тоже надо ловить?
+        } catch (NullPointerException n)
         {
-            System.out.println("We havent this model in base"); // это по-хорошему надо в лог, но мы его ещё не проходили
-            return null;
+            LOGGER.error(n);
+            return Collections.emptyList();
         }
         return thisMoodelTrucks;
     }

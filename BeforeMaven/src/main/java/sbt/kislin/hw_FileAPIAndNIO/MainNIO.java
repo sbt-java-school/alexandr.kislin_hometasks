@@ -1,5 +1,8 @@
 package sbt.kislin.hw_FileAPIAndNIO;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.io.IOException;
 import java.nio.file.*;
 
@@ -11,76 +14,78 @@ public class MainNIO {
     public static final String RELATIVE_PATH = ".\\axel";
     public static final String FAKE_PATH_1 = "D:\\sbt_training\\HomeWorks\\.gitignore";
     public static final String FAKE_PATH_2 = ".\\.gitignore";
+    private static Logger LOGGER = LogManager.getRootLogger();
+
 
     public static void main(String[] args) {
         toyingWithPathClass(PATH);
-        System.out.println("***************RELATIVE PATHS*****************");
+        LOGGER.info("***************RELATIVE PATHS*****************");
         toyingWithRelativePaths(RELATIVE_PATH);
-        NIOFilesToying(PATH, RELATIVE_PATH);
+        NIOFilesToying();
         try {
             FileWalker visitor = new FileWalker();
             Files.walkFileTree(Paths.get(FAKE_PATH_1).getParent(),visitor);
         } catch (IOException e) {
-            System.out.println(e.getMessage());
+            LOGGER.error(e);
         }
     }
 
-    private static void NIOFilesToying(String pathOne, String pathTwo) {
+    private static void NIOFilesToying() {
 
         Path path1 = Paths.get(FAKE_PATH_1);
         Path path2 = Paths.get(FAKE_PATH_2); // а чего бы не сравнить с гитигнором то...
 
-        System.out.println("SameFiles method: ");
+        LOGGER.info("SameFiles method: ");
         try {
-            System.out.println("Files.isSameFile(path1, path2) is: "
-                    + Files.isSameFile(path1, path2));
+            LOGGER.info("Files.isSameFile(path1, path2) is: "+ Files.isSameFile(path1, path2));
         } catch (IOException e) {
-            System.out.println("Error: " + e.getMessage());
+            LOGGER.info(e);
         }
-        System.out.println("Info about directory and smth in their");
+        LOGGER.info("Info about directory and smth in their");
         if (Files.exists(path1, LinkOption.NOFOLLOW_LINKS)) {
-            System.out.println("Existing path");
+            LOGGER.info("Existing path");
             if (Files.isDirectory(path1, LinkOption.NOFOLLOW_LINKS)) {
-                System.out.println(path1.toString() + " is directory");
+                LOGGER.info(path1.toString() + " is directory");
             } else {
-                System.out.println(path1.toString() + " is a file");
+                LOGGER.info(path1.toString() + " is a file");
             }
         } else {
-            System.out.println("Path " + path1 + " is not exist");
+            LOGGER.info("Path " + path1 + " is not exist");
         }
-        System.out.println("whats options with it file?");
-        System.out.printf("Readable: %b, Writable: %b, Executable: %b ",
+        LOGGER.info("whats options with it file?");
+        LOGGER.info("Readable: %b, Writable: %b, Executable: %b ",
                 Files.isReadable(path1), Files.isWritable(path1),
                 Files.isExecutable(path1));
-        System.out.println("trying to access attribute");
+        LOGGER.info("trying to access attribute");
         try {
-            System.out.println("Last modified time is: " + Files.getAttribute(path1, "lastModifiedTime"));
-            System.out.println("Size of file: " + Files.getAttribute(path1, "size"));
-            System.out.println("Creation time: " + Files.getAttribute(path1, "creationTime"));
+            LOGGER.info("Last modified time is: " + Files.getAttribute(path1, "lastModifiedTime"));
+            LOGGER.info("Size of file: " + Files.getAttribute(path1, "size"));
+            LOGGER.info("Creation time: " + Files.getAttribute(path1, "creationTime"));
         } catch (IOException e) {
-            e.printStackTrace();
+            LOGGER.error(e);
         }
-        System.out.println("trying copy files");
+        LOGGER.info("trying copy files");
         try {
             Path notFakePath = Paths.get("D:\\axel\\");
             Files.copy(path1, notFakePath.resolve(path1.getFileName()));
-            System.out.println("Success copying!");
+            LOGGER.info("Success copying!");
         } catch (IOException e) {
-            System.out.println("Error: " + e.getMessage());
+            LOGGER.error(e);
         }
-        System.out.println("trying move file");
+        LOGGER.info("trying move file");
         try {
             Files.copy(Paths.get(PATH), path1.getRoot().resolve(path1.getFileName()), StandardCopyOption.REPLACE_EXISTING);
-            System.out.println("Success moving");
+            LOGGER.info("Success moving");
         } catch (IOException e) {
-            System.out.println(e.getMessage());
+            LOGGER.error(e);
         }
-        System.out.println("Deleting this file, what be moved");
+
+        LOGGER.info("Deleting this file, what be moved");
         try {
             Files.delete(path1.getRoot().resolve(path1.getFileName()));
-            System.out.println("Success deletion!");
+            LOGGER.info("Success deletion!");
         } catch (IOException e) {
-            System.out.println(e.getMessage());
+            LOGGER.error(e);
         }
     }
 
@@ -91,9 +96,9 @@ public class MainNIO {
         System.out.println("Root of PATH: " + nioFilePath.getRoot().toString());
         System.out.println("trying convert PATH to real PATH (???) :");
         try {
-            System.out.println(nioFilePath.toRealPath());
+            LOGGER.info(nioFilePath.toRealPath());
         } catch (IOException e) {
-            System.out.println(e.getMessage());
+            LOGGER.error(e);
         }
         System.out.println("FileSystem of it PATH:" + nioFilePath.getFileSystem().toString());
         System.out.println("Parent catalog for it file: " + nioFilePath.getParent().toString());
@@ -101,7 +106,7 @@ public class MainNIO {
         System.out.println("getNameCount() is " + nioFilePath.getNameCount());
         System.out.println("We can for-each itteration on NIO.Path object, like this: ");
         for (Path element : nioFilePath) {
-            System.out.println(element);
+            LOGGER.info(element);
         }
         System.out.println("we can access to element hierarchy with him index:");
         System.out.println("Element with index 0 is " + nioFilePath.getName(0));
@@ -125,7 +130,7 @@ public class MainNIO {
             System.out.println("Real normalized rel path is: " + normalizedPath.toRealPath(LinkOption.NOFOLLOW_LINKS));
             //падаем в эксепшн с этими двумя методами, почему?
         } catch (IOException e) {
-            System.out.println("Error with " + e.getMessage());
+            LOGGER.error(e);
         }
         System.out.println("Equals rel and normalized paths: " + normalizedPath.equals(relativePath));
         for (Path element : relativePath) {

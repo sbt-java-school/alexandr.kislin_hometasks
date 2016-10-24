@@ -1,5 +1,8 @@
 package sbt.kislin.hw11_PluginDownloader;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.net.URL;
 import java.net.URLClassLoader;
 import java.net.URLStreamHandlerFactory;
@@ -9,6 +12,7 @@ import java.net.URLStreamHandlerFactory;
  */
 public class ClassLoaderForPlugin extends URLClassLoader {
 
+    private static Logger LOGGER = LogManager.getRootLogger();
     public ClassLoaderForPlugin(URL[] urls, ClassLoader parent) {
         super(urls, parent);
     }
@@ -28,7 +32,7 @@ public class ClassLoaderForPlugin extends URLClassLoader {
             return findClass(name);
         }
         catch (ClassNotFoundException e) {
-            e.getMessage();
+            LOGGER.info(e);
             return super.loadClass(name);
         }
     }

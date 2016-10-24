@@ -1,5 +1,8 @@
 package sbt.kislin.hw_FileAPIAndNIO;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -8,21 +11,21 @@ import java.io.IOException;
  * Created by axel on 06.09.2016.
  */
 public class MainClassicIO {
+    private static Logger LOGGER = LogManager.getRootLogger();
     private final static String pathFile = "D://axel//hello.txt";
 
     public static void main(String[] args) {
-        System.out.println("Мы считали из файла: ");
+        LOGGER.info("Мы считали из файла: ");
         readFromFile(pathFile);
         System.out.println("");
         String text = "adding some in file3433";
-        System.out.println("Мы перепишем в файл строку " + text + " и заново считаем: ");
+        LOGGER.info("Мы перепишем в файл строку " + text + " и заново считаем: ");
         writeToFileString(pathFile, text);
         readFromFile(pathFile);
-        System.out.println("");
-        System.out.println("А теперь считаем это всё в StringBuffer");
+        LOGGER.info("А теперь считаем это всё в StringBuffer");
         StringBuffer textFromFile = getStringBufferFromFile(pathFile);
-        System.out.println("И распечатаем");
-        System.out.println(textFromFile);
+        LOGGER.info("И распечатаем");
+        LOGGER.info(textFromFile);
     }
 
     private static StringBuffer getStringBufferFromFile(String pathFile) {
@@ -33,7 +36,7 @@ public class MainClassicIO {
                 buff.append((char) i);
             }
         } catch (IOException e) {
-            System.out.println(e.getMessage());
+            LOGGER.error(e);
         }
         return buff;
     }
@@ -43,7 +46,7 @@ public class MainClassicIO {
             byte[] buffer = text.getBytes();
             fos.write(buffer, 0, buffer.length);
         } catch (IOException ex) {
-            System.out.println(ex.getMessage());
+            LOGGER.error(ex);
         }
     }
 
@@ -54,7 +57,7 @@ public class MainClassicIO {
                 System.out.print((char) i);
             }
         } catch (IOException e) {
-            System.out.println(e.getMessage());
+            LOGGER.info(e);
         }
     }
 }
