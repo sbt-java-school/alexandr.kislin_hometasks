@@ -67,21 +67,5 @@ public class TestHTMLBuilder {
             System.out.println("Problem in report builder " + e.getMessage());
             assert true;
         }
-        try {
-            assertActualReportEqualsTo(mockMimeMessageHelper, MockedData.EXPECTED_PATH);
-        } catch (MessagingException e) {
-            System.out.println("Messaging problems with "+e.getMessage());
-        } catch (IOException e) {
-            System.out.println("IO exception in "+e.getMessage());
-        }
     }
-
-    private void assertActualReportEqualsTo(MimeMessageHelper mockMimeMessageHelper, String expectedReportPath) throws MessagingException, IOException {
-        ArgumentCaptor<String> messageTextArgumentCaptor = ArgumentCaptor.forClass(String.class);
-        verify(mockMimeMessageHelper).setText(messageTextArgumentCaptor.capture(), anyBoolean());
-        Path path = Paths.get(expectedReportPath);
-        String expectedReportContent = new String(Files.readAllBytes(path));
-        assertEquals(messageTextArgumentCaptor.getValue(), expectedReportContent);
-    }
-
 }

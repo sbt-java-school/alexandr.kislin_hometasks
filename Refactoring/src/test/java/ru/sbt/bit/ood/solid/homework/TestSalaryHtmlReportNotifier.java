@@ -93,15 +93,20 @@ public class TestSalaryHtmlReportNotifier {
             System.out.println("Problem in report builder " + e.getMessage());
             assert true;
         } catch (Exception e) {
-            System.out.println("Smth exception "+e.getMessage());
+            System.out.println("Smth exception " + e.getMessage());
             assert true;
         }
+    }
+
+    @Before
+    public void beforeSender() {
+        initParams();
     }
 
     @Test
     public void testSender() throws SQLException {
         ResultSet resultSet = MockedData.getMockedResultSet(someFakeConnection);
         StringBuilder report = builder.buildReport(resultSet);
-        sender.sendHTML("someone@gmail.com",report);
+        sender.sendHTML("someone@gmail.com", report);
     }
 }
