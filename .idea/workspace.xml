@@ -2,39 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49460d3a-7637-4dd7-b24b-06fbbc9b08c1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sbt/kislin/hw3_multimap_generics/Truck.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sbt/kislin/hw3_multimap_generics/TruckDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sbt/kislin/hw3_multimap_generics/TruckDaoMemoryImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sbt/kislin/hw3_multimap_generics/TruckRegistr.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sbt/kislin/hw3_multimap_generics/TruckRegistrByGeneric.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sbt/kislin/hw3_multimap_generics/TruckRegistrByModel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sbt/kislin/hw3_multimap_generics/main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sbt/kislin/hw5_reflection/BeanUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sbt/kislin/hw5_reflection/ClassForBeanTo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sbt/kislin/hw5_reflection/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sbt/kislin/hw6_CachedProxy/Cached.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sbt/kislin/hw6_CachedProxy/CachedInvocationsHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sbt/kislin/hw6_CachedProxy/Calculator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sbt/kislin/hw6_CachedProxy/CalculatorImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sbt/kislin/hw6_CachedProxy/DataUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sbt/kislin/hw6_CachedProxy/Main.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BeforeMaven/BeforeMaven.iml" afterPath="$PROJECT_DIR$/BeforeMaven/BeforeMaven.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BeforeMaven/pom.xml" afterPath="$PROJECT_DIR$/BeforeMaven/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fortune-teller/Fortune-teller.iml" afterPath="$PROJECT_DIR$/Fortune-teller/Fortune-teller.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fortune-teller/src/main/java/sbt/kislin/ChatServer.java" afterPath="$PROJECT_DIR$/Fortune-teller/src/main/java/sbt/kislin/ChatServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HomeWorks.iml" afterPath="$PROJECT_DIR$/HomeWorks.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pattern_trying/Pattern_trying.iml" afterPath="$PROJECT_DIR$/Pattern_trying/Pattern_trying.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PluginLoader/PluginLoader.iml" afterPath="$PROJECT_DIR$/PluginLoader/PluginLoader.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Refactoring/Refactoring.iml" afterPath="$PROJECT_DIR$/Refactoring/Refactoring.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Refactoring/src/test/java/ru/sbt/bit/ood/solid/homework/TestHTMLBuilder.java" afterPath="$PROJECT_DIR$/Refactoring/src/test/java/ru/sbt/bit/ood/solid/homework/TestHTMLBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Refactoring/src/test/java/ru/sbt/bit/ood/solid/homework/TestSalaryHtmlReportNotifier.java" afterPath="$PROJECT_DIR$/Refactoring/src/test/java/ru/sbt/bit/ood/solid/homework/TestSalaryHtmlReportNotifier.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ScoringSystem/ScoringSystem.iml" afterPath="$PROJECT_DIR$/ScoringSystem/ScoringSystem.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Streams/Streams.iml" afterPath="$PROJECT_DIR$/Streams/Streams.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThreadPool/ThreadPool.iml" afterPath="$PROJECT_DIR$/ThreadPool/ThreadPool.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThreadPool/src/main/java/sbt/kislin/ThreadPool.java" afterPath="$PROJECT_DIR$/ThreadPool/src/main/java/sbt/kislin/ThreadPool.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="HW3_multimap_generics.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,11 +49,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChatServer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ChatServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fortune-teller/src/main/java/sbt/kislin/ChatServer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="237">
               <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadPool.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ThreadPool/src/main/java/sbt/kislin/ThreadPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="56" column="47" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -165,7 +146,6 @@
         <option value="$PROJECT_DIR$/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/Refactoring/src/test/java/ru/sbt/bit/ood/solid/homework/TestHTMLBuilder.java" />
         <option value="$PROJECT_DIR$/Refactoring/src/test/java/ru/sbt/bit/ood/solid/homework/TestSalaryHtmlReportNotifier.java" />
-        <option value="$PROJECT_DIR$/ThreadPool/src/main/java/sbt/kislin/ThreadPool.java" />
         <option value="$PROJECT_DIR$/resources/log4j.xml" />
         <option value="$PROJECT_DIR$/resources/simplelogger.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/simplelogger.properties" />
@@ -174,6 +154,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/Fortune-teller/src/main/java/sbt/kislin/ChatServer.java" />
+        <option value="$PROJECT_DIR$/ThreadPool/src/main/java/sbt/kislin/ThreadPool.java" />
       </list>
     </option>
   </component>
@@ -869,7 +850,14 @@
       <option name="project" value="LOCAL" />
       <updated>1476723005831</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Log4j 2, настроено наконец-то... попутно немного перебраны зависимости">
+      <created>1477320102072</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1477320102072</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -916,7 +904,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.50292826" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24011713" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32730263" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -968,7 +956,8 @@
     <MESSAGE value="Тренировочное исправление ошибки, показанной сонаром." />
     <MESSAGE value="Исправление некоторых major/critical/blocked ошибок, показанных сонаром. Для остальных требуется поставить логгер, чем сейчас заниматься уже поздно." />
     <MESSAGE value="сонар сказал, что я сделал хуже чем было :(" />
-    <option name="LAST_COMMIT_MESSAGE" value="сонар сказал, что я сделал хуже чем было :(" />
+    <MESSAGE value="Log4j 2, настроено наконец-то... попутно немного перебраны зависимости" />
+    <option name="LAST_COMMIT_MESSAGE" value="Log4j 2, настроено наконец-то... попутно немного перебраны зависимости" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1220,6 +1209,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1272,16 +1262,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadPool/src/main/java/sbt/kislin/ThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/simplelogger.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1318,6 +1298,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
           <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadPool/src/main/java/sbt/kislin/ThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="56" column="47" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

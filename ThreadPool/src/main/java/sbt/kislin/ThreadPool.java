@@ -1,8 +1,5 @@
 package sbt.kislin;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import java.util.Arrays;
 import java.util.LinkedList;
 
@@ -12,7 +9,6 @@ import java.util.LinkedList;
 public class ThreadPool {
     private boolean readyCondition = true;
     private boolean isInterrupt = false;
-    public static final Logger LOGGER = LoggerFactory.getLogger(ThreadPool.class);
     private final LinkedList<Runnable> pool = new LinkedList<>();
     private InstanceThread[] threads;
 
@@ -57,8 +53,7 @@ public class ThreadPool {
                         try {
                             pool.wait();
                         } catch (InterruptedException e) {
-                            LOGGER.info("wake up!");
-                            //System.out.println("waking up...");
+                            System.out.println("waking up...");
                             isInterrupt = true;
                         }
                     }
