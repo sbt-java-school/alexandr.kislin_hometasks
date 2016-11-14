@@ -73,7 +73,7 @@ public class ThreadPool {
                     System.out.println("error in " + e.getMessage());
                 }
             }
-            isInterrupt=false;
+            isInterrupt = false;
         }
     }
 }

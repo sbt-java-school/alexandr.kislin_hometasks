@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49460d3a-7637-4dd7-b24b-06fbbc9b08c1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BeforeMaven/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PluginLoader/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Refactoring/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThreadPool/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BeforeMaven/src/main/java/sbt/kislin/hw3_multimap_generics/TruckRegistrByModel.java" afterPath="$PROJECT_DIR$/BeforeMaven/src/main/java/sbt/kislin/hw3_multimap_generics/TruckRegistrByModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BeforeMaven/src/main/java/sbt/kislin/hw_FileAPIAndNIO/MainClassicIO.java" afterPath="$PROJECT_DIR$/BeforeMaven/src/main/java/sbt/kislin/hw_FileAPIAndNIO/MainClassicIO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BeforeMaven/src/main/java/sbt/kislin/hw_FileAPIAndNIO/MainNIO.java" afterPath="$PROJECT_DIR$/BeforeMaven/src/main/java/sbt/kislin/hw_FileAPIAndNIO/MainNIO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fortune-teller/src/main/java/sbt/kislin/ChatServer.java" afterPath="$PROJECT_DIR$/Fortune-teller/src/main/java/sbt/kislin/ChatServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fortune-teller/src/main/java/sbt/kislin/Client.java" afterPath="$PROJECT_DIR$/Fortune-teller/src/main/java/sbt/kislin/Client.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fortune-teller/src/main/java/sbt/kislin/InputConnection.java" afterPath="$PROJECT_DIR$/Fortune-teller/src/main/java/sbt/kislin/InputConnection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PluginLoader/src/main/java/sbt/kislin/hw11_PluginDownloader/ClassLoaderForPlugin.java" afterPath="$PROJECT_DIR$/PluginLoader/src/main/java/sbt/kislin/hw11_PluginDownloader/ClassLoaderForPlugin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PluginLoader/src/main/java/sbt/kislin/hw11_PluginDownloader/PluginManager.java" afterPath="$PROJECT_DIR$/PluginLoader/src/main/java/sbt/kislin/hw11_PluginDownloader/PluginManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Refactoring/src/main/java/ru/sbt/bit/ood/solid/homework/SalaryHtmlReportNotifier.java" afterPath="$PROJECT_DIR$/Refactoring/src/main/java/ru/sbt/bit/ood/solid/homework/SalaryHtmlReportNotifier.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Refactoring/src/main/java/ru/sbt/bit/ood/solid/homework/senders/HTMLReportSender.java" afterPath="$PROJECT_DIR$/Refactoring/src/main/java/ru/sbt/bit/ood/solid/homework/senders/HTMLReportSender.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThreadPool/src/main/java/sbt/kislin/ThreadPool.java" afterPath="$PROJECT_DIR$/ThreadPool/src/main/java/sbt/kislin/ThreadPool.java" />
     </list>
     <ignored path="HW3_multimap_generics.iws" />
@@ -49,97 +43,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ChatServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fortune-teller/src/main/java/sbt/kislin/ChatServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ThreadPool/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="280">
+                <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fortune-teller/src/main/java/sbt/kislin/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HTMLReportSender.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Refactoring/src/main/java/ru/sbt/bit/ood/solid/homework/senders/HTMLReportSender.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="62" />
-              <folding />
-            </state>
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="ThreadPool.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ThreadPool/src/main/java/sbt/kislin/ThreadPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="60" column="63" selection-start-line="60" selection-start-column="63" selection-end-line="60" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassLoaderForPlugin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PluginLoader/src/main/java/sbt/kislin/hw11_PluginDownloader/ClassLoaderForPlugin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+            <state relative-caret-position="-772">
+              <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PluginManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PluginLoader/src/main/java/sbt/kislin/hw11_PluginDownloader/PluginManager.java">
+      <file leaf-file-name="TestThreadPool.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThreadPool/src/test/main/kislin/java/sbt/TestThreadPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TruckRegistrByModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BeforeMaven/src/main/java/sbt/kislin/hw3_multimap_generics/TruckRegistrByModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainClassicIO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BeforeMaven/src/main/java/sbt/kislin/hw_FileAPIAndNIO/MainClassicIO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainNIO.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BeforeMaven/src/main/java/sbt/kislin/hw_FileAPIAndNIO/MainNIO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="56" column="49" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
+            <state relative-caret-position="75">
+              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -166,9 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/RefactoringCode/src/main/java/ru/sbt/bit/ood/solid/homework/senders/HTMLReportSender.java" />
-        <option value="$PROJECT_DIR$/../hw_maven/MyCode/pom.xml" />
-        <option value="$PROJECT_DIR$/HW17_Refactoring/pom.xml" />
         <option value="$PROJECT_DIR$/ThreadPool/pom.xml" />
         <option value="$PROJECT_DIR$/PluginLoader/pom.xml" />
         <option value="$PROJECT_DIR$/Streams/pom.xml" />
@@ -211,12 +142,15 @@
         <option value="$PROJECT_DIR$/Refactoring/src/main/java/ru/sbt/bit/ood/solid/homework/senders/HTMLReportSender.java" />
         <option value="$PROJECT_DIR$/Fortune-teller/src/main/java/sbt/kislin/InputConnection.java" />
         <option value="$PROJECT_DIR$/Fortune-teller/src/main/java/sbt/kislin/ChatServer.java" />
-        <option value="$PROJECT_DIR$/ThreadPool/src/main/java/sbt/kislin/ThreadPool.java" />
         <option value="$PROJECT_DIR$/PluginLoader/src/main/java/sbt/kislin/hw11_PluginDownloader/ClassLoaderForPlugin.java" />
         <option value="$PROJECT_DIR$/PluginLoader/src/main/java/sbt/kislin/hw11_PluginDownloader/PluginManager.java" />
         <option value="$PROJECT_DIR$/BeforeMaven/src/main/java/sbt/kislin/hw3_multimap_generics/TruckRegistrByModel.java" />
         <option value="$PROJECT_DIR$/BeforeMaven/src/main/java/sbt/kislin/hw_FileAPIAndNIO/MainClassicIO.java" />
         <option value="$PROJECT_DIR$/BeforeMaven/src/main/java/sbt/kislin/hw_FileAPIAndNIO/MainNIO.java" />
+        <option value="$PROJECT_DIR$/Refactoring/README.md" />
+        <option value="$PROJECT_DIR$/ThreadPool/src/main/java/sbt/kislin/ThreadPool.java" />
+        <option value="$PROJECT_DIR$/ThreadPool/src/test/main/kislin/java/sbt/TestThreadPool.java" />
+        <option value="$PROJECT_DIR$/ThreadPool/README.md" />
       </list>
     </option>
   </component>
@@ -234,14 +168,7 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-      </PATH>
-    </treeState>
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -274,19 +201,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -308,6 +222,19 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -328,20 +255,6 @@
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$/../ClassWorks" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\sbt_training\HomeWorks\ScoringSystem" />
-      <recent name="D:\sbt_training\HomeWorks\Streams" />
-      <recent name="D:\sbt_training\HomeWorks\ThreadPool" />
-      <recent name="D:\sbt_training\HomeWorks\PluginLoader" />
-      <recent name="D:\sbt_training\HomeWorks\BeforeMaven" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="sbt.kislin" />
-      <recent name="sbt.kislin.hw6_CachedProxy" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\sbt_training\HomeWorks\src\main\resources" />
       <recent name="D:\sbt_training\HomeWorks" />
@@ -349,8 +262,22 @@
       <recent name="D:\sbt_training\HomeWorks\conf\logging" />
       <recent name="D:\sbt_training\HomeWorks\resources" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="sbt.kislin" />
+      <recent name="sbt.kislin.hw6_CachedProxy" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\sbt_training\HomeWorks\ThreadPool" />
+      <recent name="D:\sbt_training\HomeWorks\ScoringSystem" />
+      <recent name="D:\sbt_training\HomeWorks\Streams" />
+      <recent name="D:\sbt_training\HomeWorks\PluginLoader" />
+      <recent name="D:\sbt_training\HomeWorks\BeforeMaven" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ChatServer">
+  <component name="RunManager" selected="JUnit.TestThreadPool.testThreadPool">
     <configuration default="false" name="ChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -369,32 +296,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="Fortune-teller" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestHTMLBuilder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ru.sbt.bit.ood.solid.homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Refactoring" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ru.sbt.bit.ood.solid.homework" />
-      <option name="MAIN_CLASS_NAME" value="ru.sbt.bit.ood.solid.homework.TestHTMLBuilder" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="false" name="TestSalaryHtmlReportNotifier.testBuilder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -462,6 +363,32 @@
       <option name="PACKAGE_NAME" value="ru.sbt.bit.ood.solid.homework" />
       <option name="MAIN_CLASS_NAME" value="ru.sbt.bit.ood.solid.homework.TestSalaryHtmlReportNotifier" />
       <option name="METHOD_NAME" value="testSender" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestThreadPool.testThreadPool" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="main.kislin.java.sbt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ThreadPool" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="main.kislin.java.sbt" />
+      <option name="MAIN_CLASS_NAME" value="main.kislin.java.sbt.TestThreadPool" />
+      <option name="METHOD_NAME" value="testThreadPool" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -741,20 +668,33 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method />
+    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.ChatServer" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestHTMLBuilder" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestSalaryHtmlReportNotifier.testBuilder" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestSalaryHtmlReportNotifier" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestSalaryHtmlReportNotifier.testSender" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestSalaryHtmlReportNotifier.testBuilder" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestSalaryHtmlReportNotifier" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestSalaryHtmlReportNotifier.testSender" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestThreadPool.testThreadPool" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ChatServer" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestSalaryHtmlReportNotifier" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestSalaryHtmlReportNotifier.testSender" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestSalaryHtmlReportNotifier.testBuilder" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestHTMLBuilder" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestThreadPool.testThreadPool" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ChatServer" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestSalaryHtmlReportNotifier" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestSalaryHtmlReportNotifier.testSender" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestSalaryHtmlReportNotifier.testBuilder" />
       </list>
     </recent_temporary>
   </component>
@@ -933,13 +873,17 @@
       <option name="project" value="LOCAL" />
       <updated>1477320177210</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Вставлены логгеры там, где сонар хочет">
+      <created>1477323322379</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1477323322379</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestHTMLBuilder - 2016.10.24 at 17h 41m 36s.xml">
-      <configuration name="TestHTMLBuilder" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestHTMLBuilder - 2016.10.24 at 17h 42m 08s.xml">
       <configuration name="TestHTMLBuilder" configurationId="JUnit" />
     </history-entry>
@@ -961,6 +905,9 @@
     <history-entry file="TestSalaryHtmlReportNotifier_testSender - 2016.10.24 at 17h 43m 21s.xml">
       <configuration name="TestSalaryHtmlReportNotifier.testSender" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestThreadPool_testThreadPool - 2016.11.14 at 14h 45m 06s.xml">
+      <configuration name="TestThreadPool.testThreadPool" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="TestsConnection_testConnection - 2016.10.11 at 23h 29m 46s.xml">
       <configuration name="TestsConnection.testConnection" configurationId="JUnit" />
     </history-entry>
@@ -974,26 +921,26 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27467105" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.50292826" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20863836" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20863836" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31965813" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32072368" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20131771" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20272315" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39802632" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27467105" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1034,7 +981,8 @@
     <MESSAGE value="сонар сказал, что я сделал хуже чем было :(" />
     <MESSAGE value="Log4j 2, настроено наконец-то... попутно немного перебраны зависимости" />
     <MESSAGE value="исправлены ошибки, возникшие при попытках использования предыдущей версии логгера" />
-    <option name="LAST_COMMIT_MESSAGE" value="исправлены ошибки, возникшие при попытках использования предыдущей версии логгера" />
+    <MESSAGE value="Вставлены логгеры там, где сонар хочет" />
+    <option name="LAST_COMMIT_MESSAGE" value="Вставлены логгеры там, где сонар хочет" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1058,44 +1006,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HW17_Refactoring/src/test/java/ru/sbt/bit/ood/solid/homework/TestSalaryHtmlReportNotifier.java" />
-    <entry file="file://$PROJECT_DIR$/HW17_Refactoring/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/HW17_Refactoring/MyCode.iml" />
-    <entry file="file://$PROJECT_DIR$/BeforeMaven/src/main/java/sbt/kislin/hw3_multimap_generics/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hw_maven/MyCode/MyCode.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadPool/src/test/main/kislin/java/sbt/TestThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hw_maven/MyCode/src/main/java/ru/sbt/bit/ood/solid/homework/senders/HTMLReportSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hw_maven/MyCode/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Streams/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1268,44 +1178,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Refactoring/src/test/java/ru/sbt/bit/ood/solid/homework/TestHTMLBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Refactoring/src/test/java/ru/sbt/bit/ood/solid/homework/TestSalaryHtmlReportNotifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="e#3714#3715#0" expanded="false" />
-            <element signature="e#3742#3743#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/simplelogger.properties" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="28" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1313,7 +1194,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1321,77 +1201,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fortune-teller/src/main/java/sbt/kislin/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
+        <state relative-caret-position="51">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fortune-teller/src/main/java/sbt/kislin/ChatServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
+        <state relative-caret-position="238">
           <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Refactoring/src/main/java/ru/sbt/bit/ood/solid/homework/senders/HTMLReportSender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="153">
           <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadPool/src/main/java/sbt/kislin/ThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="60" column="63" selection-start-line="60" selection-start-column="63" selection-end-line="60" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PluginLoader/src/main/java/sbt/kislin/hw11_PluginDownloader/ClassLoaderForPlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PluginLoader/src/main/java/sbt/kislin/hw11_PluginDownloader/PluginManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BeforeMaven/src/main/java/sbt/kislin/hw3_multimap_generics/TruckRegistrByModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="170">
           <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BeforeMaven/src/main/java/sbt/kislin/hw_FileAPIAndNIO/MainClassicIO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1399,19 +1236,144 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="2519" column="26" selection-start-line="2519" selection-start-column="26" selection-end-line="2519" selection-end-column="26" />
-          <folding>
-            <element signature="e#113425#113426#0" expanded="true" />
-            <element signature="e#113484#113485#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BeforeMaven/src/main/java/sbt/kislin/hw_FileAPIAndNIO/MainClassicIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BeforeMaven/src/main/java/sbt/kislin/hw_FileAPIAndNIO/MainNIO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="-1078">
           <caret line="56" column="49" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BeforeMaven/src/main/java/sbt/kislin/hw6_CachedProxy/CachedInvocationsHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BeforeMaven/src/main/java/sbt/kislin/hw6_CachedProxy/Cached.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="65" column="16" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PluginLoader/src/main/java/sbt/kislin/hw11_PluginDownloader/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PluginLoader/src/main/java/sbt/kislin/hw11_PluginDownloader/ClassLoaderForPlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PluginLoader/src/main/java/sbt/kislin/hw11_PluginDownloader/Plugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PluginLoader/src/main/java/sbt/kislin/hw11_PluginDownloader/PluginManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PluginLoader/src/main/java/sbt/kislin/hw11_PluginDownloader/directory/PluginImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Refactoring/src/test/java/ru/sbt/bit/ood/solid/homework/TestHTMLBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Refactoring/src/test/java/ru/sbt/bit/ood/solid/homework/TestSalaryHtmlReportNotifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Refactoring/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="220">
+            <caret line="11" column="150" selection-start-line="11" selection-start-column="150" selection-end-line="11" selection-end-column="150" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadPool/src/test/main/kislin/java/sbt/TestThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadPool/src/main/java/sbt/kislin/ThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-772">
+          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadPool/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="280">
+            <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>
