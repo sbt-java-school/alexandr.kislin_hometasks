@@ -36,7 +36,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="BeforeMaven" target="1.8" />
+      <module name="BeforeMaven" target="1.5" />
       <module name="ConvertingSystem" target="1.8" />
       <module name="Fortune-teller" target="1.8" />
       <module name="fortune-teller" target="1.8" />
