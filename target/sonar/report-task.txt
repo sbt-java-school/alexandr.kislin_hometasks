@@ -1,0 +1,5 @@
+projectKey=sbt.kislin.homeworks:HomeWorks
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/sbt.kislin.homeworks:HomeWorks
+ceTaskId=AVf3VXdGF96RxgGCikZG
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AVf3VXdGF96RxgGCikZG

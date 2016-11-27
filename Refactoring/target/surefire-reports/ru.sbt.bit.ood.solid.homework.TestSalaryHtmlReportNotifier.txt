@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: ru.sbt.bit.ood.solid.homework.TestSalaryHtmlReportNotifier
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.926 sec
