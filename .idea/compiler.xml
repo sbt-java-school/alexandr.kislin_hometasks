@@ -25,13 +25,11 @@
         <module name="BeforeMaven" />
         <module name="ConvertingSystem" />
         <module name="fortune-teller" />
-        <module name="Fortune-teller" />
         <module name="Pattern_trying" />
         <module name="PluginLoader" />
         <module name="RecipesBook" />
         <module name="Refactoring" />
         <module name="ScoringSystem" />
-        <module name="Streams" />
         <module name="ThreadPool" />
       </profile>
     </annotationProcessing>

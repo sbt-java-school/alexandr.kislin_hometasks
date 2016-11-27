@@ -9,6 +9,7 @@
         <module>PluginLoader</module>
         <module>ThreadPool</module>
         <module>Refactoring</module>
+        <module>RecipesBook</module>
         <module>ScoringSystem</module>
         <module>RecipesBook</module>
     </modules>

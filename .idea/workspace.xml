@@ -2,8 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49460d3a-7637-4dd7-b24b-06fbbc9b08c1" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RecipesBook/RecipesBook.iml" afterPath="$PROJECT_DIR$/RecipesBook/RecipesBook.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fortune-teller/Fortune-teller.iml" afterPath="$PROJECT_DIR$/Fortune-teller/Fortune-teller.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PluginLoader/PluginLoader.iml" afterPath="$PROJECT_DIR$/PluginLoader/PluginLoader.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RecipesBook/RecipesBook.iml" afterPath="$PROJECT_DIR$/RecipesBook/RecipesBook.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RecipesBook/src/main/java/sbt/kislin/RecipesBook/model/Recipe.java" afterPath="$PROJECT_DIR$/RecipesBook/src/main/java/sbt/kislin/RecipesBook/model/Recipe.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RecipesBook/src/main/webapp/WEB-INF/pages/index.jsp" afterPath="$PROJECT_DIR$/RecipesBook/src/main/webapp/WEB-INF/pages/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Refactoring/Refactoring.iml" afterPath="$PROJECT_DIR$/Refactoring/Refactoring.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ScoringSystem/ScoringSystem.iml" afterPath="$PROJECT_DIR$/ScoringSystem/ScoringSystem.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Streams/Streams.iml" afterPath="$PROJECT_DIR$/Streams/Streams.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThreadPool/ThreadPool.iml" afterPath="$PROJECT_DIR$/ThreadPool/ThreadPool.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThreadPool/src/main/java/sbt/kislin/ThreadPool.java" afterPath="$PROJECT_DIR$/ThreadPool/src/main/java/sbt/kislin/ThreadPool.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Pattern_trying/Pattern_trying.iml" afterPath="$PROJECT_DIR$/ConvertingSystem/ConvertingSystem.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Pattern_trying/pom.xml" afterPath="$PROJECT_DIR$/ConvertingSystem/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Pattern_trying/src/main/java/sbt/kislin/Converter.java" afterPath="$PROJECT_DIR$/ConvertingSystem/src/main/java/sbt/kislin/Converter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Pattern_trying/src/main/java/sbt/kislin/ConverterImpl.java" afterPath="$PROJECT_DIR$/ConvertingSystem/src/main/java/sbt/kislin/ConverterImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Pattern_trying/src/main/java/sbt/kislin/ConverterTo.java" afterPath="$PROJECT_DIR$/ConvertingSystem/src/main/java/sbt/kislin/ConverterTo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Pattern_trying/src/main/java/sbt/kislin/IntegerConverterValue.java" afterPath="$PROJECT_DIR$/ConvertingSystem/src/main/java/sbt/kislin/IntegerConverterValue.java" />
+>>>>>>> master
     </list>
     <ignored path="HW3_multimap_generics.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,6 +65,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
@@ -62,11 +87,67 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+=======
+      <file leaf-file-name="Converter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ConvertingSystem/src/main/java/sbt/kislin/Converter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="34">
+                <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConverterImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ConvertingSystem/src/main/java/sbt/kislin/ConverterImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+>>>>>>> master
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+=======
+      <file leaf-file-name="IntegerConverterValue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ConvertingSystem/src/main/java/sbt/kislin/IntegerConverterValue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConverterTo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ConvertingSystem/src/main/java/sbt/kislin/ConverterTo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+>>>>>>> master
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -136,9 +217,15 @@
         <option value="$PROJECT_DIR$/RecipesBook/src/main/webapp/WEB-INF/pages/index.jsp" />
         <option value="$PROJECT_DIR$/ConvertingSystem/src/main/java/sbt/kislin/Converter.java" />
         <option value="$PROJECT_DIR$/ConvertingSystem/src/main/java/sbt/kislin/ConverterImpl.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/ConvertingSystem/pom.xml" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pom.xml" />
+=======
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ConvertingSystem/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
+>>>>>>> master
       </list>
     </option>
   </component>
@@ -199,6 +286,10 @@
           </PATH>
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="Scratches" />
+>>>>>>> master
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -222,7 +313,10 @@
       <pane id="PackagesPane">
         <subPane />
       </pane>
+<<<<<<< HEAD
       <pane id="Scratches" />
+=======
+>>>>>>> master
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -947,8 +1041,8 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -961,7 +1055,11 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19985358" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19985358" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> master
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1196,12 +1294,24 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Refactoring/README.md">
+<<<<<<< HEAD
+=======
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+>>>>>>> master
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="220">
             <caret line="11" column="150" selection-start-line="11" selection-start-column="150" selection-end-line="11" selection-end-column="150" />
           </first_editor>
           <second_editor />
+<<<<<<< HEAD
         </state>
       </provider>
       <provider editor-type-id="MarkdownFxPreviewEditor">
@@ -1210,10 +1320,18 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+>>>>>>> master
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ThreadPool/README.md">
+<<<<<<< HEAD
+=======
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+>>>>>>> master
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="280">
@@ -1375,6 +1493,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
@@ -1382,10 +1501,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
+=======
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+>>>>>>> master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
@@ -1394,17 +1524,38 @@
             <folding />
           </first_editor>
           <second_editor />
+=======
+    <entry file="file://$PROJECT_DIR$/ConvertingSystem/src/main/java/sbt/kislin/Converter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
+          <folding />
+>>>>>>> master
         </state>
       </provider>
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
           <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+>>>>>>> master
         </state>
       </provider>
     </entry>
