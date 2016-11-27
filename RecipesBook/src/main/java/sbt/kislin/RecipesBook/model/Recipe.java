@@ -5,9 +5,6 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by axelk on 15.11.2016.
- */
 @Entity
 public class Recipe implements Serializable {
     @Id

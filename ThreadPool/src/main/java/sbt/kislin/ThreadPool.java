@@ -64,7 +64,9 @@ public class ThreadPool {
                     }
                 }
             }
-            Runnable executor = pool.pollFirst();
+            Runnable executor;
+            synchronized (pool.pollFirst()) {
+            executor = pool.pollFirst();}
             if (executor != null) {
                 System.out.println(getName() + " now starting");
                 try {

@@ -11,8 +11,9 @@
         <module>Streams</module>
         <module>Refactoring</module>
         <module>ScoringSystem</module>
-        <module>Pattern_trying</module>
+        <module>ConvertingSystem</module>
         <module>Fortune-teller</module>
+        <module>RecipesBook</module>
     </modules>
 
     <build>
