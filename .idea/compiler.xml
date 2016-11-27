@@ -23,20 +23,17 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="BeforeMaven" />
-        <module name="ConvertingSystem" />
         <module name="fortune-teller" />
-        <module name="Fortune-teller" />
         <module name="Pattern_trying" />
         <module name="PluginLoader" />
         <module name="RecipesBook" />
         <module name="Refactoring" />
         <module name="ScoringSystem" />
-        <module name="Streams" />
         <module name="ThreadPool" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="BeforeMaven" target="1.5" />
+      <module name="BeforeMaven" target="1.8" />
       <module name="ConvertingSystem" target="1.8" />
       <module name="Fortune-teller" target="1.8" />
       <module name="fortune-teller" target="1.8" />

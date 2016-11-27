@@ -8,11 +8,8 @@
         <module>BeforeMaven</module>
         <module>PluginLoader</module>
         <module>ThreadPool</module>
-        <module>Streams</module>
         <module>Refactoring</module>
         <module>ScoringSystem</module>
-        <module>ConvertingSystem</module>
-        <module>Fortune-teller</module>
         <module>RecipesBook</module>
     </modules>
 
