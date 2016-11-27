@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BeforeMaven/BeforeMaven.iml" filepath="$PROJECT_DIR$/BeforeMaven/BeforeMaven.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ConvertingSystem/ConvertingSystem.iml" filepath="$PROJECT_DIR$/ConvertingSystem/ConvertingSystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/HomeWorks.iml" filepath="$PROJECT_DIR$/HomeWorks.iml" />
       <module fileurl="file://$PROJECT_DIR$/PluginLoader/PluginLoader.iml" filepath="$PROJECT_DIR$/PluginLoader/PluginLoader.iml" />
       <module fileurl="file://$PROJECT_DIR$/RecipesBook/RecipesBook.iml" filepath="$PROJECT_DIR$/RecipesBook/RecipesBook.iml" />
